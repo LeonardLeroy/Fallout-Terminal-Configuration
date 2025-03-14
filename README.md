@@ -171,3 +171,5 @@ Since changing the **cursor color** or setting a default text and background col
 Unfortunately, terminal colors like text and background colors are set via the **terminal's graphical interface**, not through Bash. In `.bashrc`, we can change **the color of the terminal's output (text)**, but we can't change the default background or the cursor color, as those are managed by the terminal's graphical settings.
 
 That's why, for **consistent styling**, you'll need to manually adjust these settings in the terminal preferences. Once this is done, your terminal should open with a **green text on a black background**, and this will remain even after you restart the terminal.
+
+# (some updates coming soon..)
