@@ -137,7 +137,6 @@ Now we can add a loading page like for the connection to a serveur, for example 
 1. Defining the Loading Bar Sequence
 
 The `loading_bar` array holds a sequence of strings that represent different stages of the loading bar. Each string contains a combination of filled (█) and empty (▒) blocks that gradually fill up as the loop progresses. Here's the array definition:
-    ```bash
     
     loading_bar=("█▒▒▒▒▒▒▒▒▒" "██▒▒▒▒▒▒▒▒" "███▒▒▒▒▒▒▒" "████▒▒▒▒▒▒"
                  "█████▒▒▒▒▒" "██████▒▒▒▒" "███████▒▒▒" "████████▒▒"
@@ -148,15 +147,24 @@ This sequence will be used in the loop to simulate the loading process.
 2. Loading Animation Loop
 
 The `for` loop iterates through each element of the `loading_bar` array. At each step:
+   
    -The screen is cleared with `clear` to simulate a real-time animation.
+   
    -The message "LOADING" along with the current loading bar is printed.
+   
    -The script pauses for `0.3` seconds using `sleep 0.3` to create the animation effect.
+    
+      for i in "${loading_bar[@]}"; do
+          clear
+          echo "                                              -CONNECTION TO SERVER 1-"
+          echo "LOADING [$i]"
+          sleep 0.3
+      done
 
 3. Completion of Loading Process
 
 After the loop finishes, the loading bar reaches its final state (██████████), and the script prints the message indicating that the connection is established:
-    ```bash
-    
+
     clear
     echo "                                                  -CONNECTION TO SERVER 1-"
     echo "LOADING [██████████] 100%"
@@ -166,7 +174,6 @@ After the loop finishes, the loading bar reaches its final state (████�
 4. Clearing the Screen and Displaying the Welcome Message
 
 Once the connection is established, the screen is cleared again, and the script prints a message saying "WELCOME VAULT DWELLER!", which adds a nice touch to the simulation:
-    ```bash
     
     clear
     echo "                                                        -SERVER 1-"
