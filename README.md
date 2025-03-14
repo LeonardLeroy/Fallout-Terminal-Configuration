@@ -27,12 +27,12 @@ Follow the steps below to make this change:
    ```bash
      nano ~/.bashrc
 
-### 3. Scroll to the top of the file and add the following line to resize the terminal window each time it starts:
-    
+3. Scroll at the end of the file and add the following line to resize the terminal window each time it starts:
+    ```bash 
     # Resize terminal window to 40 rows and 125 columns
     echo -ne "\e[8;40;125t"
 
-### 4. Save the changes and exit the editor. For nano, you can press CTRL + X, then Y to confirm the changes, and Enter to save.
+4. Save the changes and exit the editor. For nano, you can press CTRL + X, then Y to confirm the changes, and Enter to save.
 
 To apply the changes, either close and reopen your terminal or run the following command:
     
@@ -56,7 +56,6 @@ Follow the steps below:
    
     ```bash
     # Display Vault Boy ASCII Art
-   echo -ne "\e[8;40;125t"
    echo "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
    sleep 0.1
    echo "⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣄⣴⣿⣿⣶⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
@@ -114,9 +113,9 @@ Follow the steps below:
    echo ""
     ```
 
-4. These `echo` commands will print the Vault Boy ASCII art line by line and these `sleep` commands will add an effect of progressive rendering, making the drawing appear gradually, as if being typed out in real time. The "\e[32m" part ensures that the text will be in green, which is a prominent color in the Fallout theme.
+4. These `echo` commands will print the Vault Boy ASCII art line by line and these `sleep` commands will add an effect of progressive rendering, making the drawing appear gradually.
 
-5. If you want to be more realistic, you can add details such as the company name, copyright dates, and ownership statement at the beginning of the display:
+5. If you want to be more realistic, you can add details such as the company name, copyright dates, and ownership statement just after the display of Vault-boy:
     ```bash
     sleep 1
     echo "                                         ROBCO INDUSTRIES UNIFIED OPERATING SYSTEM"
@@ -129,7 +128,7 @@ This mimics the classic boot-up screen of ROBCO Industries Unified Operating Sys
 
 6. Save the changes and exit the editor. In **nano**, press **CTRL + X**, then **Y** to confirm the changes, and press **Enter** to save.
 
-Once you’ve completed this step, every time you open a new terminal session, the Vault Boy ASCII Art will appear, giving your terminal that familiar Fallout vibe.
+Once you’ve completed this step, every time you open a new terminal session, the Vault Boy ASCII Art will appear, giving your terminal that familiar Fallout vibe!
 
 ### 3. Add a loading page
 
