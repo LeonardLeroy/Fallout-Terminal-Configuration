@@ -113,9 +113,9 @@ Follow the steps below:
    echo ""
     ```
 
-4. These `echo` commands will print the Vault Boy ASCII art line by line and these `sleep` commands will add an effect of progressive rendering, making the drawing appear gradually.
+These `echo` commands will print the Vault Boy ASCII art line by line and these `sleep` commands will add an effect of progressive rendering, making the drawing appear gradually.
 
-5. If you want to be more realistic, you can add details such as the company name, copyright dates, and ownership statement just after the display of Vault-boy:
+4. If you want to be more realistic, you can add details such as the company name, copyright dates, and ownership statement just after the display of Vault-boy:
     ```bash
     sleep 1
     echo "                                         ROBCO INDUSTRIES UNIFIED OPERATING SYSTEM"
@@ -126,7 +126,7 @@ Follow the steps below:
 
 This mimics the classic boot-up screen of ROBCO Industries Unified Operating System, for an immersive Fallout aesthetic.
 
-6. Save the changes and exit the editor. In **nano**, press **CTRL + X**, then **Y** to confirm the changes, and press **Enter** to save.
+5. Save the changes and exit the editor. In **nano**, press **CTRL + X**, then **Y** to confirm the changes, and press **Enter** to save.
 
 Once you’ve completed this step, every time you open a new terminal session, the Vault Boy ASCII Art will appear, giving your terminal that familiar Fallout vibe!
 
