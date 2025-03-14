@@ -83,7 +83,11 @@ sleep 1
 clear
 echo "                                                        -SERVER 1-"
 sleep 1
+echo ""
+echo ""
 echo "WELCOME VAULT DWELLER!"
 sleep 1
+echo ""
+echo ""
 
 PS1='\[\e[32m\]$(date "+%a %b %d %T") \[\e[33m\]\w\n\[\e[36m\]Vault-Tec\n\[\e[35m\]S.P.E.C.I.A.L.\n\[\e[31m\]Shelter-666 🖥️  \[\e[0m\]'
