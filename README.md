@@ -130,6 +130,8 @@ This mimics the classic boot-up screen of ROBCO Industries Unified Operating Sys
 
 Once you’ve completed this step, every time you open a new terminal session, the Vault Boy ASCII Art will appear, giving your terminal that familiar Fallout vibe!
 
+![Vault Boy](Screenshots/vault_boy.png)
+
 ### 3. Add a loading page
 
 Now we can add a loading page like for the connection to a serveur, for example the shelter's serveur, with an animated loading bar:
@@ -161,6 +163,8 @@ The `for` loop iterates through each element of the `loading_bar` array. At each
           sleep 0.3
       done
 
+![Connection](Screenshots/connection.png)
+
 3. Completion of Loading Process
 
 After the loop finishes, the loading bar reaches its final state (██████████), and the script prints the message indicating that the connection is established:
@@ -170,6 +174,8 @@ After the loop finishes, the loading bar reaches its final state (████�
     echo "LOADING [██████████] 100%"
     sleep 0.3
     echo "CONNECTION ESTABLISHED."
+
+![Connection Established](Screenshots/connection_established.png)
 
 4. Clearing the Screen and Displaying the Welcome Message
 
@@ -216,6 +222,8 @@ Follow the steps below:
             - **Magenta (`\[\e[35m\]`)** for S.P.E.C.I.A.L.
             - **Red (`\[\e[31m\]`)** for the shelter name with the computer emoji.
             - **Reset (`\[\e[0m\]`)** to reset the colors back to the default after the prompt.
+
+![Prompt](Screenshots/prompt.png)
 
 4. Once you've added the line, **save** the changes and **exit** the editor. If you're using **nano**, press **CTRL + X**, then **Y** to confirm the changes, and press **Enter** to save.
 
