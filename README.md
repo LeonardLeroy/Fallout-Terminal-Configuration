@@ -178,8 +178,12 @@ Once the connection is established, the screen is cleared again, and the script 
     clear
     echo "                                                        -SERVER 1-"
     sleep 1
+    echo ""
+    echo ""
     echo "WELCOME VAULT DWELLER!"
     sleep 1
+    echo ""
+    echo ""
 
 ### 4. Customize the Terminal Prompt
 
