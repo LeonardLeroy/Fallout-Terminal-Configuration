@@ -162,7 +162,7 @@ Since changing the **cursor color** or setting a default text and background col
    - After changing the colors, simply close the preferences window. Your terminal should now display the **green text** on a **black background** by default.
 
 #### Example for GNOME Terminal:
-1. Open GNOME Terminal and go to **Preferences** → **Profile** → **Text and Background**.
+1. Open GNOME Terminal and go to **Preferences** → **Profile** → **Colors**.
 2. Set **Text color** to `#00FF00` (green).
 3. Set **Background color** to `#000000` (black).
 
