@@ -173,7 +173,7 @@ After the loop finishes, the loading bar reaches its final state (████�
     echo "                                                  -CONNECTION TO SERVER 1-"
     echo "LOADING [██████████] 100%"
     sleep 0.3
-    echo " "
+    echo ""
     echo "CONNECTION ESTABLISHED."
 
 ![Connection Established](Screenshots/connection_established.png)
