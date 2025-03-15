@@ -25,7 +25,7 @@ Follow the steps below to make this change:
 2. Edit the `.bashrc` file using your preferred text editor. You can use the following command to open it with **nano**:
 
    ```bash
-     nano ~/.bashrc
+   nano ~/.bashrc
 
 3. Scroll at the end of the file and add the following line to resize the terminal window each time it starts:
     ```bash 
