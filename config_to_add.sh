@@ -77,7 +77,7 @@ for i in "${loading_bar[@]}"; do
 done
 
 clear
-echo "                                                  -CONNECTION TO SERVER 1-"
+echo "                                              -CONNECTION TO SERVER 1-"
 echo "LOADING [██████████] 100%"
 sleep 0.3
 echo ""
