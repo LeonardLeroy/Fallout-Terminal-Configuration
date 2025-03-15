@@ -4,10 +4,10 @@ CONFIG_FILE="config_to_add"
 BASHRC_FILE="$HOME/.bashrc"
 
 if [ ! -f "$CONFIG_FILE" ]; then
-    echo "Erreur : Le fichier $CONFIG_FILE n'existe pas."
+    echo "Error : The file $CONFIG_FILE doesn't exist."
     exit 1
 fi
 
 cat "$CONFIG_FILE" >> "$BASHRC_FILE"
 
-echo "Le contenu de $CONFIG_FILE a été ajouté à $BASHRC_FILE avec succès."
+echo "The content of $CONFIG_FILE has been added to $BASHRC_FILE successfully."
