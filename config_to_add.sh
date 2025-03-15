@@ -80,6 +80,7 @@ clear
 echo "                                                  -CONNECTION TO SERVER 1-"
 echo "LOADING [██████████] 100%"
 sleep 0.3
+echo ""
 echo "CONNECTION ESTABLISHED."
 sleep 1
 clear
