@@ -156,12 +156,12 @@ The `for` loop iterates through each element of the `loading_bar` array. At each
    
    -The script pauses for `0.3` seconds using `sleep 0.3` to create the animation effect.
     
-      for i in "${loading_bar[@]}"; do
-          clear
-          echo "                                              -CONNECTION TO SERVER 1-"
-          echo "LOADING [$i]"
-          sleep 0.3
-      done
+    for i in "${loading_bar[@]}"; do
+        clear
+        echo "                                              -CONNECTION TO SERVER 1-"
+        echo "LOADING [$i]"
+        sleep 0.3
+    done
 
 ![Connection](Screenshots/connection.png)
 
