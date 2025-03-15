@@ -11,7 +11,7 @@ This project transforms your terminal into an immersive **Fallout**-inspired exp
 
 ---
 
-## Installation
+## Manual Installation
 
 Follow the steps below to set up your Fallout-inspired terminal.
 
@@ -274,4 +274,30 @@ Unfortunately, terminal colors like text and background colors are set via the *
 
 That's why, for **consistent styling**, you'll need to manually adjust these settings in the terminal preferences. Once this is done, your terminal should open with a **green text on a black background**, and this will remain even after you restart the terminal.
 
+## Automatic Installation (if you are lazy)
+
+### 1. Clone the repo
+
+      git clone https://github.com/LeonardLeroy/Fallout-Terminal-Configuration.git Fallout_Config_Terminal
+
+And go to the folder
+
+      cd Fallout_Config_Terminal
+
+
+### 2. Make the script executable
+   
+      chmod +x add_config.sh
+
+### 3. Run the script
+
+      ./add_config.sh
+      
+### This will append the content of config_to_add to your ~/.bashrc file automatically.
+
+### 4. Apply changes
+
+      source ~/.bashrc
+
+Now, your new configuration is active! 🚀
 # (some updates coming soon..)
