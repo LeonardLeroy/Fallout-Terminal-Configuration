@@ -278,20 +278,20 @@ That's why, for **consistent styling**, you'll need to manually adjust these set
 
 ### 1. Clone the repo
 
-      git clone https://github.com/LeonardLeroy/Fallout-Terminal-Configuration.git Fallout_Config_Terminal
+    git clone https://github.com/LeonardLeroy/Fallout-Terminal-Configuration.git Fallout_Config_Terminal
 
 And go to the folder
 
-      cd Fallout_Config_Terminal
+    cd Fallout_Config_Terminal
 
 
 ### 2. Make the script executable
    
-      chmod +x add_config.sh
+    chmod +x add_config.sh
 
 ### 3. Run the script
 
-      ./add_config.sh
+    ./add_config.sh
       
 ### This will append the content of config_to_add to your ~/.bashrc file automatically.
 
