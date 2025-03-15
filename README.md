@@ -170,7 +170,7 @@ The `for` loop iterates through each element of the `loading_bar` array. At each
 After the loop finishes, the loading bar reaches its final state (██████████), and the script prints the message indicating that the connection is established:
 
     clear
-    echo "                                                  -CONNECTION TO SERVER 1-"
+    echo "                                              -CONNECTION TO SERVER 1-"
     echo "LOADING [██████████] 100%"
     sleep 0.3
     echo ""
