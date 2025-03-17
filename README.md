@@ -33,7 +33,7 @@ And go to the folder
 
 ### 4. Apply changes
 
-      source ~/.bashrc
+    source ~/.bashrc
 
 Now, your new configuration is active! 🚀
 
